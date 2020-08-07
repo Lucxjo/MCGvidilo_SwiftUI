@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF68E8EB24DCA5C900B2FB9A /* ShapedCraftingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68E8EA24DCA5C900B2FB9A /* ShapedCraftingModel.swift */; };
+		BF68E8EC24DCA5C900B2FB9A /* ShapedCraftingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68E8EA24DCA5C900B2FB9A /* ShapedCraftingModel.swift */; };
+		BF68E8EE24DCB21100B2FB9A /* ShapelessCraftingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68E8ED24DCB21100B2FB9A /* ShapelessCraftingModel.swift */; };
+		BF68E8EF24DCB21100B2FB9A /* ShapelessCraftingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF68E8ED24DCB21100B2FB9A /* ShapelessCraftingModel.swift */; };
+		BF8F935D24DDB8AF005858BE /* ShapedCraftingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8F935C24DDB8AF005858BE /* ShapedCraftingView.swift */; };
+		BF8F935E24DDB8AF005858BE /* ShapedCraftingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8F935C24DDB8AF005858BE /* ShapedCraftingView.swift */; };
 		BFAC68D224DC9BA10088DE6F /* MCGvidiloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC68BF24DC9BA00088DE6F /* MCGvidiloApp.swift */; };
 		BFAC68D324DC9BA10088DE6F /* MCGvidiloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC68BF24DC9BA00088DE6F /* MCGvidiloApp.swift */; };
 		BFAC68D424DC9BA10088DE6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC68C024DC9BA00088DE6F /* ContentView.swift */; };
 		BFAC68D524DC9BA10088DE6F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC68C024DC9BA00088DE6F /* ContentView.swift */; };
 		BFAC68D624DC9BA10088DE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAC68C124DC9BA10088DE6F /* Assets.xcassets */; };
 		BFAC68D724DC9BA10088DE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAC68C124DC9BA10088DE6F /* Assets.xcassets */; };
+		BFAC68E224DC9CBC0088DE6F /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC68E124DC9CBC0088DE6F /* Row.swift */; };
+		BFAC68E324DC9CDC0088DE6F /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC68E124DC9CBC0088DE6F /* Row.swift */; };
+		BFAC68E624DC9F620088DE6F /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC68E524DC9F620088DE6F /* ItemModel.swift */; };
+		BFAC68E724DC9F620088DE6F /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC68E524DC9F620088DE6F /* ItemModel.swift */; };
+		BFAC68E924DCA1CE0088DE6F /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC68E824DCA1CE0088DE6F /* ItemDetail.swift */; };
+		BFAC68EA24DCA1CE0088DE6F /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC68E824DCA1CE0088DE6F /* ItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF68E8EA24DCA5C900B2FB9A /* ShapedCraftingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapedCraftingModel.swift; sourceTree = "<group>"; };
+		BF68E8ED24DCB21100B2FB9A /* ShapelessCraftingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapelessCraftingModel.swift; sourceTree = "<group>"; };
+		BF8F935C24DDB8AF005858BE /* ShapedCraftingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapedCraftingView.swift; sourceTree = "<group>"; };
 		BFAC68BF24DC9BA00088DE6F /* MCGvidiloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MCGvidiloApp.swift; sourceTree = "<group>"; };
 		BFAC68C024DC9BA00088DE6F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFAC68C124DC9BA10088DE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,6 +39,9 @@
 		BFAC68CE24DC9BA10088DE6F /* MCGvidilo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCGvidilo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC68D024DC9BA10088DE6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFAC68D124DC9BA10088DE6F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		BFAC68E124DC9CBC0088DE6F /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		BFAC68E524DC9F620088DE6F /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		BFAC68E824DCA1CE0088DE6F /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,8 @@
 		BFAC68BE24DC9BA00088DE6F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				BFAC68E424DC9F470088DE6F /* Model */,
+				BFAC68E024DC9C8B0088DE6F /* Views */,
 				BFAC68BF24DC9BA00088DE6F /* MCGvidiloApp.swift */,
 				BFAC68C024DC9BA00088DE6F /* ContentView.swift */,
 				BFAC68C124DC9BA10088DE6F /* Assets.xcassets */,
@@ -88,6 +108,26 @@
 				BFAC68D124DC9BA10088DE6F /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		BFAC68E024DC9C8B0088DE6F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC68E124DC9CBC0088DE6F /* Row.swift */,
+				BFAC68E824DCA1CE0088DE6F /* ItemDetail.swift */,
+				BF8F935C24DDB8AF005858BE /* ShapedCraftingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFAC68E424DC9F470088DE6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC68E524DC9F620088DE6F /* ItemModel.swift */,
+				BF68E8EA24DCA5C900B2FB9A /* ShapedCraftingModel.swift */,
+				BF68E8ED24DCB21100B2FB9A /* ShapelessCraftingModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAC68D424DC9BA10088DE6F /* ContentView.swift in Sources */,
+				BFAC68E224DC9CBC0088DE6F /* Row.swift in Sources */,
+				BF68E8EB24DCA5C900B2FB9A /* ShapedCraftingModel.swift in Sources */,
+				BFAC68E624DC9F620088DE6F /* ItemModel.swift in Sources */,
+				BFAC68E924DCA1CE0088DE6F /* ItemDetail.swift in Sources */,
+				BF8F935D24DDB8AF005858BE /* ShapedCraftingView.swift in Sources */,
+				BF68E8EE24DCB21100B2FB9A /* ShapelessCraftingModel.swift in Sources */,
 				BFAC68D224DC9BA10088DE6F /* MCGvidiloApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +243,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAC68D524DC9BA10088DE6F /* ContentView.swift in Sources */,
+				BFAC68E324DC9CDC0088DE6F /* Row.swift in Sources */,
+				BF68E8EC24DCA5C900B2FB9A /* ShapedCraftingModel.swift in Sources */,
+				BFAC68E724DC9F620088DE6F /* ItemModel.swift in Sources */,
+				BFAC68EA24DCA1CE0088DE6F /* ItemDetail.swift in Sources */,
+				BF8F935E24DDB8AF005858BE /* ShapedCraftingView.swift in Sources */,
+				BF68E8EF24DCB21100B2FB9A /* ShapelessCraftingModel.swift in Sources */,
 				BFAC68D324DC9BA10088DE6F /* MCGvidiloApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
